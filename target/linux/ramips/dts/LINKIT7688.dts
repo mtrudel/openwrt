@@ -163,4 +163,8 @@
 		#gpio-cells = <2>;
 	};
 
+  max98357a {
+    compatible = "maxim,max98357a";
+    sdmode-gpios = <&gpio0 18 0>;
+  };
 };
